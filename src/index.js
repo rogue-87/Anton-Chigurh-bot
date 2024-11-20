@@ -2,7 +2,6 @@ const { Client, Collection, Events, GatewayIntentBits } = require("discord.js");
 const fs = require("node:fs");
 const path = require("node:path");
 const { config } = require("dotenv");
-const { request } = require("node:http");
 
 config({ path: "./.env" });
 

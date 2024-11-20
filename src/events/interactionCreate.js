@@ -6,7 +6,7 @@ module.exports = {
     async execute(interaction) {
         if (!interaction.isChatInputCommand()) return;
 
-        /** @type {Command} */
+        /** @type {import("../bot").Command} */
         const command = interaction.client.commands.get(
             interaction.commandName,
         );
