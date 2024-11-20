@@ -19,7 +19,9 @@
     },
     "homepage": "https://github.com/rogue87-dev/Anton-Chigurh-bot#readme",
     "devDependencies": {
-        "dotenv": "^16.4.5"
+        "@types/eslint": "^9.6.1",
+        "dotenv": "^16.4.5",
+        "eslint": "^9.15.0"
     },
     "dependencies": {
         "discord.js": "^14.16.3"
